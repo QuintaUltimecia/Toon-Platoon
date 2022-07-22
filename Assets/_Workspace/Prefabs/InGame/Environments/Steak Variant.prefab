@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1632697326350057637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -52.150845
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.7865405
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53ac8dc0bd5661c4bb004c97beb34b75, type: 2}
+    - target: {fileID: 919132149155446097, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_Name
+      value: Steak Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 119
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+--- !u!1 &1903307681379024372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 02291c2fa1b22364eaa62df4a33c2a4a, type: 3}
+  m_PrefabInstance: {fileID: 1632697326350057637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3248531300361322534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903307681379024372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.624809, y: 1.2535372, z: 9.972624}
+  m_Center: {x: 0.18042684, y: 0.6557746, z: 0.3660257}
+--- !u!208 &-5828589979908748754
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903307681379024372}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.3120003, y: 0.62700003, z: 4.986}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.18, y: 0.656, z: 0.36600003}
+  m_TimeToStationary: 0.5

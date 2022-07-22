@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1d2dc0b4b5dfc41a3a5992af7aec51, type: 3}
+  m_Name: "2_\u0421orporal"
+  m_EditorClassIdentifier: 
+  _MarineHealth: 150
+  _SniperHealth: 110
+  _HeavyHealth: 200
+  _MedicHealth: 120
+  _GrenadierHealth: 160
+  _name: Corporal
+  _priceOfRevival: 300
+  _requiredExp: 1000
+  _sprite: {fileID: 21300000, guid: fefa8ab8489ef0449b99a7983e1d193a, type: 3}

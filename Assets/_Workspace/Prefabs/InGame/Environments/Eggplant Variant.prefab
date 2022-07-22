@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3235874304670703092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55.55504
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2349635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.168232
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53ac8dc0bd5661c4bb004c97beb34b75, type: 2}
+    - target: {fileID: 919132149155446097, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_Name
+      value: Eggplant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 119
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+--- !u!1 &2317466327938965669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c02a826f7ae4d3e499e8b2fb992058a8, type: 3}
+  m_PrefabInstance: {fileID: 3235874304670703092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7539817868785054387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317466327938965669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.170196, y: 4.1298985, z: 9.923317}
+  m_Center: {x: 0.11350304, y: 0.3252399, z: 0.028277159}
+--- !u!208 &1917991067631973857
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317466327938965669}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.085, y: 2.065, z: 4.9620004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.11400001, y: 0.32500002, z: 0.028}
+  m_TimeToStationary: 0.5

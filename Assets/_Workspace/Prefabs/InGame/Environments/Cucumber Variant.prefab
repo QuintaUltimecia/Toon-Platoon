@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6676307861637053807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -49.311417
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77086294
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.209818
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53ac8dc0bd5661c4bb004c97beb34b75, type: 2}
+    - target: {fileID: 919132149155446097, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_Name
+      value: Cucumber Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 119
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+--- !u!1 &5793436105009987646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d816fdf613eaef4bbbd5daeefc0f88a, type: 3}
+  m_PrefabInstance: {fileID: 6676307861637053807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1412111366711963369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793436105009987646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.898469, y: 2.5779366, z: 10.516304}
+  m_Center: {x: -0.22827172, y: 0.06694096, z: -0.044148684}
+--- !u!208 &6479999809386952059
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793436105009987646}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.4490001, y: 1.289, z: 5.2580004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.22800002, y: 0.067, z: -0.044000003}
+  m_TimeToStationary: 0.5
